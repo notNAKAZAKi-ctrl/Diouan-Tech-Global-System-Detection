@@ -1,0 +1,25 @@
+# --- Data Manipulation & Math ---
+pandas==2.1.4        # The core tool for Tables (DataFrames) and ETL
+numpy==1.26.3        # Mathematical calculations (used by Pandas/Scikit)
+
+# --- Web Scraping & APIs ---
+requests==2.31.0     # To call the UN Comtrade API & DeepSeek API
+beautifulsoup4==4.12.2 # To parse HTML from Alibaba/Indiamart
+selenium==4.16.0     # To automate the browser (Bypass bot protection)
+webdriver-manager==4.0.1 # Automatically manages Chrome drivers for Selenium
+
+# --- Machine Learning & AI ---
+scikit-learn==1.3.2  # Contains Isolation Forest (Fraud Detection)
+openai==1.6.1        # Client to connect to LLM APIs (DeepSeek/OpenAI)
+
+# --- Database & Storage ---
+psycopg2-binary==2.9.9 # PostgreSQL adapter for Python
+sqlalchemy==2.0.25   # To write Pandas DataFrames directly to SQL
+
+# --- Environment & Config ---
+python-dotenv==1.0.0 # To load API keys securely from .env file
+
+# --- Visualization (For Notebooks) ---
+matplotlib==3.8.2    # Basic plotting
+seaborn==0.13.1      # Beautiful statistical graphs (Heatmaps)
+jupyter==1.0.0       # To run your .ipynb notebooks

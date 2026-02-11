@@ -1,0 +1,656 @@
+Brand,Model,Release_Year,Body_Type,Engine_Type,Fuel_Type,Seats,Launch_Price_USD,Median_Market_Price_USD,Market_Segment
+Dacia,Sandero,2024,Hatchback,Petrol,Gasoline,5,16590,13500,Budget
+Dacia,Sandero Stepway,2024,Hatchback,Petrol,Gasoline,5,17500,14300,Budget
+Dacia,Logan,2023,Sedan,Petrol,Gasoline,5,15200,12500,Budget
+Dacia,Duster,2022,SUV,Petrol,Gasoline,5,20500,17500,Budget
+Dacia,Duster TCe,2024,SUV,Petrol,Gasoline,5,21500,18500,Budget
+Dacia,Bigster,2025,SUV,Petrol,Gasoline,5,38200,32000,Budget
+Dacia,Jogger,2024,MPV,Petrol,Gasoline,7,21000,19500,Budget
+Dacia,Spring,2023,Hatchback,Electric,Electric,4,20000,18000,Budget
+Renault,Clio,2024,Hatchback,Petrol,Gasoline,5,22000,18500,Budget
+Renault,Clio E-Tech,2024,Hatchback,Electric,Electric,5,28000,24000,Premium
+Renault,Megane,2024,Sedan,Petrol,Gasoline,5,32000,26000,Mid-Range
+Renault,Megane E-Tech,2025,Sedan,Electric,Electric,5,35000,30000,Premium
+Renault,Scenic,2025,MPV,Petrol,Gasoline,5,28000,24000,Mid-Range
+Renault,Scenic E-Tech,2025,MPV,Electric,Electric,5,40000,34000,Premium
+Renault,Captur,2024,SUV,Petrol,Gasoline,5,26000,22000,Budget
+Renault,Captur E-Tech,2024,SUV,Electric,Electric,5,32000,27500,Premium
+Renault,Arkana,2025,Coupe SUV,Petrol,Gasoline,5,31000,26500,Mid-Range
+Renault,Koleos,2023,Midsize SUV,Petrol,Gasoline,5,38000,32000,Mid-Range
+Hyundai,Venue,2022,Hatchback,Petrol,Gasoline,5,10000,9000,Budget
+Hyundai,Venue,2021,Hatchback,Petrol,Gasoline,5,9500,8500,Budget
+Hyundai,Accent,2022,Sedan,Petrol,Gasoline,5,17740,15000,Budget
+Hyundai,Accent,2021,Sedan,Petrol,Gasoline,5,16400,14000,Budget
+Hyundai,Elantra,2024,Sedan,Petrol,Gasoline,5,24500,21000,Budget
+Hyundai,Elantra,2022,Sedan,Petrol,Gasoline,5,21295,18500,Budget
+Hyundai,Elantra,2021,Sedan,Petrol,Gasoline,5,20635,17500,Budget
+Hyundai,Elantra N,2023,Sedan,Petrol,Gasoline,5,35000,29000,Premium
+Hyundai,Elantra Hybrid,2024,Sedan,Hybrid,Gasoline,5,26500,23000,Budget
+Hyundai,Creta,2023,Subcompact SUV,Petrol,Gasoline,5,19000,16500,Budget
+Hyundai,Kona,2024,Compact SUV,Petrol,Gasoline,5,25350,22000,Budget
+Hyundai,Kona,2022,Compact SUV,Petrol,Gasoline,5,22595,19500,Budget
+Hyundai,Kona,2021,Compact SUV,Petrol,Gasoline,5,21685,18500,Budget
+Hyundai,Kona Hybrid,2024,Compact SUV,Hybrid,Gasoline,5,27000,23500,Budget
+Hyundai,Kona Hybrid,2022,Compact SUV,Hybrid,Gasoline,5,24395,21000,Budget
+Hyundai,Kona Electric,2024,Compact SUV,Electric,Electric,5,33500,28500,Premium
+Hyundai,Kona Electric,2022,Compact SUV,Electric,Electric,5,31145,26500,Premium
+Hyundai,Kona N,2023,Compact SUV,Petrol,Gasoline,5,33000,28000,Mid-Range
+Hyundai,Santa Fe,2025,Midsize SUV,Petrol,Gasoline,5,34800,30000,Mid-Range
+Hyundai,Santa Fe,2022,Midsize SUV,Petrol,Gasoline,5,33260,28500,Mid-Range
+Hyundai,Santa Fe,2021,Midsize SUV,Petrol,Gasoline,5,32735,27500,Mid-Range
+Hyundai,Santa Fe Hybrid,2025,Midsize SUV,Hybrid,Gasoline,5,36500,31500,Mid-Range
+Hyundai,Santa Fe Plug-in Hybrid,2024,Midsize SUV,Plug-in Hybrid,Gasoline,5,39000,33000,Mid-Range
+Hyundai,Tucson,2024,Compact SUV,Petrol,Gasoline,5,35000,30500,Mid-Range
+Hyundai,Tucson,2022,Compact SUV,Petrol,Gasoline,5,25350,22000,Budget
+Hyundai,Tucson,2021,Compact SUV,Petrol,Gasoline,5,24450,21000,Budget
+Hyundai,Tucson Hybrid,2024,Compact SUV,Hybrid,Gasoline,5,37000,32000,Mid-Range
+Hyundai,Tucson Hybrid,2022,Compact SUV,Hybrid,Gasoline,5,31045,26500,Mid-Range
+Hyundai,Tucson Plug-in Hybrid,2024,Compact SUV,Plug-in Hybrid,Gasoline,5,40000,34000,Mid-Range
+Hyundai,Palisade,2025,Midsize SUV,Petrol,Gasoline,7,39430,35000,Mid-Range
+Hyundai,Palisade,2022,Midsize SUV,Petrol,Gasoline,7,34895,29500,Mid-Range
+Hyundai,Palisade,2021,Midsize SUV,Petrol,Gasoline,7,33860,28500,Mid-Range
+Hyundai,Palisade Hybrid,2025,Midsize SUV,Hybrid,Gasoline,7,41000,36500,Mid-Range
+Hyundai,Sonata,2024,Sedan,Petrol,Gasoline,5,35000,30000,Mid-Range
+Hyundai,Sonata,2022,Sedan,Petrol,Gasoline,5,25245,21500,Budget
+Hyundai,Sonata,2021,Sedan,Petrol,Gasoline,5,24955,21000,Budget
+Hyundai,Sonata Hybrid,2024,Sedan,Hybrid,Gasoline,5,37000,31500,Mid-Range
+Hyundai,Veloster N,2022,Hatchback,Petrol,Gasoline,5,33595,28500,Premium
+Hyundai,Veloster N,2021,Hatchback,Petrol,Gasoline,5,33255,28000,Premium
+Hyundai,Ioniq,2022,Sedan,Hybrid,Gasoline,5,24695,21000,Budget
+Hyundai,Ioniq,2021,Sedan,Hybrid,Gasoline,5,24405,20500,Budget
+Hyundai,Ioniq 5,2023,Electric SUV,Electric,Electric,5,42600,37000,Premium
+Hyundai,Ioniq 5,2022,Electric SUV,Electric,Electric,5,41245,35500,Premium
+Hyundai,Ioniq 5 N,2025,Electric SUV,Electric,Electric,5,68000,58000,Premium
+Hyundai,Ioniq 6,2024,Electric Sedan,Electric,Electric,5,51150,45000,Premium
+Hyundai,Ioniq 6,2023,Electric Sedan,Electric,Electric,5,42715,36500,Premium
+Hyundai,Ioniq 9,2025,Electric SUV,Electric,Electric,7,58900,52000,Premium
+Peugeot,208,2025,Hatchback,Petrol,Gasoline,5,27700,23000,Budget
+Peugeot,208,2024,Hatchback,Petrol,Gasoline,5,26500,22000,Budget
+Peugeot,208,2022,Hatchback,Petrol,Gasoline,5,24000,20000,Budget
+Peugeot,208 E-CC,2025,Electric Hatchback,Electric,Electric,5,32000,27000,Premium
+Peugeot,308,2024,Sedan,Petrol,Gasoline,5,44000,37000,Mid-Range
+Peugeot,308,2022,Sedan,Petrol,Gasoline,5,42000,35500,Mid-Range
+Peugeot,2008,2025,Compact SUV,Petrol,Gasoline,5,28900,25000,Budget
+Peugeot,2008,2024,Compact SUV,Petrol,Gasoline,5,27800,24000,Budget
+Peugeot,2008,2022,Compact SUV,Petrol,Gasoline,5,26000,22000,Budget
+Peugeot,2008 E-CC,2025,Electric SUV,Electric,Electric,5,35000,29500,Premium
+Peugeot,3008,2024,Midsize SUV,Petrol,Gasoline,5,55000,47000,Mid-Range
+Peugeot,3008,2022,Midsize SUV,Petrol,Gasoline,5,52000,44000,Mid-Range
+Peugeot,3008 Hybrid,2024,Midsize SUV,Hybrid,Gasoline,5,57000,49000,Mid-Range
+Peugeot,3008 E-CC,2024,Midsize SUV,Electric,Electric,5,61000,52000,Premium
+Peugeot,5008,2024,Midsize SUV,Petrol,Gasoline,7,60000,50000,Mid-Range
+Peugeot,5008,2022,Midsize SUV,Petrol,Gasoline,7,57000,47500,Mid-Range
+Peugeot,5008 Hybrid,2024,Midsize SUV,Hybrid,Gasoline,7,62000,52000,Mid-Range
+Volkswagen,Polo,2024,Hatchback,Petrol,Gasoline,5,20000,17500,Budget
+Volkswagen,Polo,2022,Hatchback,Petrol,Gasoline,5,19000,16500,Budget
+Volkswagen,Polo,2021,Hatchback,Petrol,Gasoline,5,18500,16000,Budget
+Volkswagen,Golf,2023,Hatchback,Petrol,Gasoline,5,28000,24000,Mid-Range
+Volkswagen,Golf,2022,Hatchback,Petrol,Gasoline,5,27500,23500,Mid-Range
+Volkswagen,Golf,2021,Hatchback,Petrol,Gasoline,5,27200,23000,Mid-Range
+Volkswagen,Golf R,2023,Hatchback,Petrol,Gasoline,5,45000,38000,Premium
+Volkswagen,Golf R,2022,Hatchback,Petrol,Gasoline,5,43645,37000,Premium
+Volkswagen,Golf GTI,2022,Hatchback,Petrol,Gasoline,5,29545,25000,Mid-Range
+Volkswagen,Golf GTE,2023,Hatchback,Plug-in Hybrid,Gasoline,5,32000,27000,Mid-Range
+Volkswagen,Jetta,2023,Sedan,Petrol,Gasoline,5,24000,20500,Budget
+Volkswagen,Jetta,2022,Sedan,Petrol,Gasoline,5,23000,19500,Budget
+Volkswagen,Jetta,2021,Sedan,Petrol,Gasoline,5,22285,18500,Budget
+Volkswagen,Passat,2023,Sedan,Petrol,Gasoline,5,36000,30500,Mid-Range
+Volkswagen,Passat,2022,Sedan,Petrol,Gasoline,5,35000,29500,Mid-Range
+Volkswagen,Passat,2021,Sedan,Petrol,Gasoline,5,34490,29000,Mid-Range
+Volkswagen,Taos,2023,Compact SUV,Petrol,Gasoline,5,25000,22000,Budget
+Volkswagen,Taos,2022,Compact SUV,Petrol,Gasoline,5,24550,21500,Budget
+Volkswagen,Tiguan,2024,Midsize SUV,Petrol,Gasoline,5,35000,30000,Mid-Range
+Volkswagen,Tiguan,2022,Midsize SUV,Petrol,Gasoline,5,33000,28000,Mid-Range
+Volkswagen,Tiguan,2021,Midsize SUV,Petrol,Gasoline,5,32695,27500,Mid-Range
+Volkswagen,Tiguan Allspace,2024,Midsize SUV,Petrol,Gasoline,7,38000,32500,Mid-Range
+Volkswagen,Tiguan Allspace,2022,Midsize SUV,Petrol,Gasoline,7,36500,31000,Mid-Range
+Volkswagen,Touareg,2023,Full-size SUV,Petrol,Gasoline,5,62000,53000,Premium
+Volkswagen,Touareg,2022,Full-size SUV,Petrol,Gasoline,5,60000,51000,Premium
+Volkswagen,Touareg,2021,Full-size SUV,Petrol,Gasoline,5,58500,49500,Premium
+Volkswagen,Touareg Hybrid,2023,Full-size SUV,Hybrid,Gasoline,5,65000,55500,Premium
+Volkswagen,ID.3,2024,Electric Hatchback,Electric,Electric,5,38000,32000,Premium
+Volkswagen,ID.4,2024,Electric SUV,Electric,Electric,5,40000,35000,Premium
+Volkswagen,ID.5,2024,Electric Coupe SUV,Electric,Electric,5,43000,37000,Premium
+Volkswagen,ID.Buzz,2024,Electric MPV,Electric,Electric,7,45000,38000,Premium
+Volkswagen,ID.Buzz Cargo,2024,Electric Van,Electric,Electric,3,42000,36000,Commercial
+Opel,Corsa,2024,Hatchback,Petrol,Gasoline,5,18000,15500,Budget
+Opel,Corsa,2022,Hatchback,Petrol,Gasoline,5,17500,15000,Budget
+Opel,Corsa,2021,Hatchback,Petrol,Gasoline,5,17000,14500,Budget
+Opel,Corsa Electric,2024,Hatchback,Electric,Electric,5,23000,19500,Premium
+Opel,Astra,2023,Sedan,Petrol,Gasoline,5,26000,22000,Budget
+Opel,Astra,2022,Sedan,Petrol,Gasoline,5,25000,21000,Budget
+Opel,Astra,2021,Sedan,Petrol,Gasoline,5,24000,20000,Budget
+Opel,Astra Sports Tourer,2023,Station Wagon,Petrol,Gasoline,5,27000,23000,Budget
+Opel,Astra Electric,2023,Sedan,Electric,Electric,5,32000,27000,Premium
+Opel,Grandland,2024,Midsize SUV,Petrol,Gasoline,5,32000,27500,Mid-Range
+Opel,Grandland,2022,Midsize SUV,Petrol,Gasoline,5,30500,26000,Mid-Range
+Opel,Grandland Hybrid,2024,Midsize SUV,Hybrid,Gasoline,5,34000,29000,Mid-Range
+Opel,Grandland Electric,2024,Midsize SUV,Electric,Electric,5,40000,34000,Premium
+Opel,Crossland,2023,Compact SUV,Petrol,Gasoline,5,27000,23000,Budget
+Opel,Crossland,2022,Compact SUV,Petrol,Gasoline,5,26000,22000,Budget
+Opel,Crossland,2021,Compact SUV,Petrol,Gasoline,5,25000,21000,Budget
+Opel,Mokka,2023,Compact SUV,Petrol,Gasoline,5,28000,24000,Budget
+Opel,Mokka,2022,Compact SUV,Petrol,Gasoline,5,27000,23000,Budget
+Opel,Mokka Electric,2023,Compact SUV,Electric,Electric,5,35000,29500,Premium
+Opel,Frontera,2024,Midsize SUV,Petrol,Gasoline,5,30000,25500,Mid-Range
+Opel,Frontera Hybrid,2024,Midsize SUV,Hybrid,Gasoline,5,32000,27000,Mid-Range
+Opel,Zafira,2023,Minivan,Petrol,Gasoline,7,36000,30500,Mid-Range
+Opel,Zafira,2021,Minivan,Petrol,Gasoline,7,34000,28500,Mid-Range
+Opel,Insignia,2024,Sedan,Petrol,Gasoline,5,38000,32000,Mid-Range
+Opel,Insignia,2022,Sedan,Petrol,Gasoline,5,36000,30500,Mid-Range
+Kia,Picanto,2023,Hatchback,Petrol,Gasoline,5,11000,10000,Budget
+Kia,Picanto,2022,Hatchback,Petrol,Gasoline,5,10500,9500,Budget
+Kia,Picanto,2021,Hatchback,Petrol,Gasoline,5,10000,9000,Budget
+Kia,Rio,2023,Sedan,Petrol,Gasoline,5,13500,12000,Budget
+Kia,Rio,2022,Sedan,Petrol,Gasoline,5,13000,11500,Budget
+Kia,Rio,2021,Sedan,Petrol,Gasoline,5,12500,11000,Budget
+Kia,Ceed,2024,Hatchback,Petrol,Gasoline,5,23000,19500,Budget
+Kia,Ceed,2023,Hatchback,Petrol,Gasoline,5,22500,19000,Budget
+Kia,Ceed,2022,Hatchback,Petrol,Gasoline,5,22000,18500,Budget
+Kia,Ceed Plug-in Hybrid,2024,Hatchback,Plug-in Hybrid,Gasoline,5,27000,23000,Mid-Range
+Kia,Cerato,2023,Sedan,Petrol,Gasoline,5,19000,16000,Budget
+Kia,Cerato,2022,Sedan,Petrol,Gasoline,5,18500,15500,Budget
+Kia,Cerato,2021,Sedan,Petrol,Gasoline,5,18000,15000,Budget
+Kia,Soul,2023,Compact SUV,Petrol,Gasoline,5,19000,16500,Budget
+Kia,Soul,2022,Compact SUV,Petrol,Gasoline,5,18500,16000,Budget
+Kia,Soul,2021,Compact SUV,Petrol,Gasoline,5,18000,15500,Budget
+Kia,K4,2024,Sedan,Petrol,Gasoline,5,24485,21000,Budget
+Kia,Sportage,2024,Compact SUV,Petrol,Gasoline,5,31000,27000,Mid-Range
+Kia,Sportage,2022,Compact SUV,Petrol,Gasoline,5,28300,24500,Mid-Range
+Kia,Sportage,2021,Compact SUV,Petrol,Gasoline,5,27600,23500,Mid-Range
+Kia,Sportage Plug-in Hybrid,2024,Compact SUV,Plug-in Hybrid,Gasoline,5,34000,29000,Mid-Range
+Kia,Sportage Plug-in Hybrid,2022,Compact SUV,Plug-in Hybrid,Gasoline,5,32500,27500,Mid-Range
+Kia,Sorento,2024,Midsize SUV,Petrol,Gasoline,5,38000,33000,Mid-Range
+Kia,Sorento,2022,Midsize SUV,Petrol,Gasoline,5,35000,29500,Mid-Range
+Kia,Sorento,2021,Midsize SUV,Petrol,Gasoline,5,34000,28500,Mid-Range
+Kia,Sorento Hybrid,2024,Midsize SUV,Hybrid,Gasoline,5,40000,34500,Mid-Range
+Kia,Sorento Plug-in Hybrid,2024,Midsize SUV,Plug-in Hybrid,Gasoline,5,43000,37000,Mid-Range
+Kia,Sorento Plug-in Hybrid,2022,Midsize SUV,Plug-in Hybrid,Gasoline,5,41000,35000,Mid-Range
+Kia,Telluride,2024,Midsize SUV,Petrol,Gasoline,7,42000,37000,Mid-Range
+Kia,Telluride,2022,Midsize SUV,Petrol,Gasoline,7,40000,34500,Mid-Range
+Kia,Telluride,2021,Midsize SUV,Petrol,Gasoline,7,39300,33500,Mid-Range
+Kia,Carnival,2024,Minivan,Petrol,Gasoline,7,38000,32500,Mid-Range
+Kia,Carnival,2022,Minivan,Petrol,Gasoline,7,36500,31000,Mid-Range
+Kia,EV6,2023,Electric Sedan,Electric,Electric,5,41600,36000,Premium
+Kia,EV6,2022,Electric Sedan,Electric,Electric,5,40000,34500,Premium
+Kia,EV9,2024,Electric SUV,Electric,Electric,7,54900,47000,Premium
+Kia,Niro EV,2024,Electric Compact SUV,Electric,Electric,5,38000,32500,Premium
+Kia,Niro Plug-in Hybrid,2024,Compact SUV,Plug-in Hybrid,Gasoline,5,32000,27500,Mid-Range
+Kia,Niro Plug-in Hybrid,2022,Compact SUV,Plug-in Hybrid,Gasoline,5,30500,26000,Mid-Range
+Skoda,Fabia,2024,Hatchback,Petrol,Gasoline,5,19000,16500,Budget
+Skoda,Fabia,2022,Hatchback,Petrol,Gasoline,5,18000,15500,Budget
+Skoda,Fabia,2021,Hatchback,Petrol,Gasoline,5,17500,15000,Budget
+Skoda,Fabia Combi,2024,Station Wagon,Petrol,Gasoline,5,20000,17500,Budget
+Skoda,Rapid,2023,Sedan,Petrol,Gasoline,5,17000,14500,Budget
+Skoda,Rapid,2021,Sedan,Petrol,Gasoline,5,16000,13500,Budget
+Skoda,Octavia,2025,Sedan,Petrol,Gasoline,5,30600,26000,Mid-Range
+Skoda,Octavia,2023,Sedan,Petrol,Gasoline,5,29500,25000,Mid-Range
+Skoda,Octavia,2022,Sedan,Petrol,Gasoline,5,29000,24500,Mid-Range
+Skoda,Octavia RS,2024,Sedan,Petrol,Gasoline,5,35000,30000,Mid-Range
+Skoda,Superb,2025,Sedan,Petrol,Gasoline,5,35500,30500,Mid-Range
+Skoda,Superb,2023,Sedan,Petrol,Gasoline,5,34000,29000,Mid-Range
+Skoda,Karoq,2023,Compact SUV,Petrol,Gasoline,5,31000,26500,Mid-Range
+Skoda,Karoq,2022,Compact SUV,Petrol,Gasoline,5,30000,25500,Mid-Range
+Skoda,Karoq,2021,Compact SUV,Petrol,Gasoline,5,29000,24500,Mid-Range
+Skoda,Kodiaq,2024,Midsize SUV,Petrol,Gasoline,7,39300,34000,Mid-Range
+Skoda,Kodiaq,2022,Midsize SUV,Petrol,Gasoline,7,37500,32000,Mid-Range
+Skoda,Kodiaq,2021,Midsize SUV,Petrol,Gasoline,7,36500,31000,Mid-Range
+Skoda,Enyaq,2024,Electric SUV,Electric,Electric,5,42000,36000,Premium
+Skoda,Enyaq,2022,Electric SUV,Electric,Electric,5,40000,34000,Premium
+Skoda,Roomster,2023,MPV,Petrol,Gasoline,5,23000,19500,Budget
+Toyota,Yaris,2023,Hatchback,Hybrid,Gasoline,5,19000,16500,Budget
+Toyota,Yaris,2022,Hatchback,Hybrid,Gasoline,5,18500,16000,Budget
+Toyota,Yaris,2021,Hatchback,Hybrid,Gasoline,5,18000,15500,Budget
+Toyota,Yaris Cross,2023,Subcompact SUV,Hybrid,Gasoline,5,27000,23000,Budget
+Toyota,Yaris Cross,2022,Subcompact SUV,Hybrid,Gasoline,5,26000,22000,Budget
+Toyota,GR Yaris,2023,Hatchback,Petrol,Gasoline,5,32000,27000,Mid-Range
+Toyota,Corolla,2025,Sedan,Hybrid,Gasoline,5,28640,24500,Budget
+Toyota,Corolla,2024,Sedan,Hybrid,Gasoline,5,28000,24000,Budget
+Toyota,Corolla,2022,Sedan,Hybrid,Gasoline,5,26525,23000,Budget
+Toyota,Corolla,2021,Sedan,Hybrid,Gasoline,5,25585,22000,Budget
+Toyota,Corolla Cross,2025,Compact SUV,Hybrid,Gasoline,5,33830,29000,Mid-Range
+Toyota,Corolla Cross,2023,Compact SUV,Hybrid,Gasoline,5,32500,28000,Mid-Range
+Toyota,Corolla Cross,2022,Compact SUV,Hybrid,Gasoline,5,22195,19500,Budget
+Toyota,Corolla Hatchback,2025,Hatchback,Hybrid,Gasoline,5,29000,24500,Budget
+Toyota,Corolla Sedan,2025,Sedan,Petrol,Gasoline,5,26000,22000,Budget
+Toyota,RAV4,2025,Compact SUV,Hybrid,Gasoline,5,38105,33000,Mid-Range
+Toyota,RAV4,2022,Compact SUV,Hybrid,Gasoline,5,26525,23000,Budget
+Toyota,RAV4,2021,Compact SUV,Hybrid,Gasoline,5,26000,22000,Budget
+Toyota,RAV4 Prime,2025,Compact SUV,Plug-in Hybrid,Gasoline,5,46000,39500,Premium
+Toyota,RAV4 Prime,2022,Compact SUV,Plug-in Hybrid,Gasoline,5,42000,36000,Premium
+Toyota,Highlander,2025,Midsize SUV,Hybrid,Gasoline,5,48115,42000,Mid-Range
+Toyota,Highlander,2022,Midsize SUV,Hybrid,Gasoline,5,46300,40000,Mid-Range
+Toyota,Highlander,2021,Midsize SUV,Hybrid,Gasoline,5,45000,39000,Mid-Range
+Toyota,Highlander Hybrid,2025,Midsize SUV,Hybrid,Gasoline,5,50000,43000,Mid-Range
+Toyota,Grand Highlander,2025,Midsize SUV,Hybrid,Gasoline,7,55320,48000,Mid-Range
+Toyota,Camry,2025,Sedan,Hybrid,Gasoline,5,34600,30000,Mid-Range
+Toyota,Camry,2022,Sedan,Hybrid,Gasoline,5,30000,25500,Mid-Range
+Toyota,Camry,2021,Sedan,Hybrid,Gasoline,5,29540,25000,Mid-Range
+Toyota,Camry GR,2024,Sedan,Petrol,Gasoline,5,42000,36000,Mid-Range
+Toyota,Prius,2025,Hybrid Sedan,Hybrid,Gasoline,5,36965,31500,Mid-Range
+Toyota,Prius,2022,Hybrid Sedan,Hybrid,Gasoline,5,28460,24000,Budget
+Toyota,Prius,2021,Hybrid Sedan,Hybrid,Gasoline,5,27995,23500,Budget
+Toyota,Prius AWD-e,2025,Hybrid Sedan,Hybrid,Gasoline,5,41000,35000,Mid-Range
+Toyota,Land Cruiser,2025,Full-size SUV,Hybrid,Gasoline,7,64025,56000,Premium
+Toyota,Land Cruiser,2022,Full-size SUV,Hybrid,Gasoline,7,61000,53000,Premium
+Toyota,Sequoia,2024,Full-size SUV,Hybrid,Gasoline,7,59000,51000,Premium
+Toyota,Sequoia,2022,Full-size SUV,Hybrid,Gasoline,7,57000,49500,Premium
+Toyota,Tacoma,2024,Pickup Truck,Petrol,Gasoline,5,29000,25000,Mid-Range
+Toyota,Tacoma,2022,Pickup Truck,Petrol,Gasoline,5,27000,23500,Mid-Range
+Toyota,Tacoma,2021,Pickup Truck,Petrol,Gasoline,5,26000,22500,Mid-Range
+Toyota,Tundra,2024,Pickup Truck,Hybrid,Gasoline,5,45000,38500,Mid-Range
+Toyota,Tundra,2023,Pickup Truck,Hybrid,Gasoline,5,43500,37500,Mid-Range
+Toyota,Tundra,2022,Pickup Truck,Hybrid,Gasoline,5,42000,36000,Mid-Range
+Toyota,Sienna,2024,Minivan,Hybrid,Gasoline,8,39000,33000,Mid-Range
+Toyota,Sienna,2022,Minivan,Hybrid,Gasoline,8,37000,31500,Mid-Range
+Toyota,Sienna,2021,Minivan,Hybrid,Gasoline,8,36000,30500,Mid-Range
+Toyota,bZ4X,2025,Electric SUV,Electric,Electric,5,43775,37500,Premium
+Toyota,bZ4X,2024,Electric SUV,Electric,Electric,5,42000,36000,Premium
+Toyota,bZ Compact SUV,2025,Electric SUV,Electric,Electric,5,42000,36000,Premium
+Citroën,C1,2023,Hatchback,Petrol,Gasoline,5,10000,8500,Budget
+Citroën,C1,2021,Hatchback,Petrol,Gasoline,5,9500,8000,Budget
+Citroën,C2,2023,Hatchback,Petrol,Gasoline,5,12000,10000,Budget
+Citroën,C3,2024,Hatchback,Petrol,Gasoline,5,18000,15500,Budget
+Citroën,C3,2022,Hatchback,Petrol,Gasoline,5,17000,14500,Budget
+Citroën,C3,2021,Hatchback,Petrol,Gasoline,5,16500,14000,Budget
+Citroën,C3 Aircross,2024,Compact SUV,Petrol,Gasoline,5,24000,20500,Budget
+Citroën,C3 Aircross,2022,Compact SUV,Petrol,Gasoline,5,23000,19500,Budget
+Citroën,C4,2024,Sedan,Petrol,Gasoline,5,29000,24500,Mid-Range
+Citroën,C4,2022,Sedan,Petrol,Gasoline,5,27500,23000,Mid-Range
+Citroën,C4 Electric,2024,Sedan,Electric,Electric,5,38000,32000,Premium
+Citroën,C4 Electric,2022,Sedan,Electric,Electric,5,36000,30500,Premium
+Citroën,C5,2023,Sedan,Petrol,Gasoline,5,35000,29500,Mid-Range
+Citroën,C5,2021,Sedan,Petrol,Gasoline,5,33000,28000,Mid-Range
+Citroën,C5 Aircross,2025,Midsize SUV,Petrol,Gasoline,5,39000,33500,Mid-Range
+Citroën,C5 Aircross,2023,Midsize SUV,Petrol,Gasoline,5,37000,31500,Mid-Range
+Citroën,C5 Aircross Hybrid,2025,Midsize SUV,Hybrid,Gasoline,5,41000,35000,Mid-Range
+Citroën,ë-C3,2024,Electric Hatchback,Electric,Electric,5,24000,20000,Premium
+Citroën,ë-C4,2024,Electric Sedan,Electric,Electric,5,39000,33000,Premium
+Citroën,Berlingo,2023,Minivan,Petrol,Gasoline,5,20000,17000,Budget
+Citroën,Berlingo,2021,Minivan,Petrol,Gasoline,5,19000,16000,Budget
+Fiat,Panda,2023,Hatchback,Petrol,Gasoline,5,15000,13000,Budget
+Fiat,Panda,2021,Hatchback,Petrol,Gasoline,5,14000,12000,Budget
+Fiat,Panda Hybrid,2023,Hatchback,Hybrid,Gasoline,5,17000,14500,Budget
+Fiat,500,2023,Hatchback,Petrol,Gasoline,5,22000,18500,Budget
+Fiat,500,2021,Hatchback,Petrol,Gasoline,5,21000,17500,Budget
+Fiat,500e,2024,Electric Hatchback,Electric,Electric,5,32500,28000,Premium
+Fiat,500e,2022,Electric Hatchback,Electric,Electric,5,31000,26500,Premium
+Fiat,500X,2024,Compact SUV,Petrol,Gasoline,5,28000,23500,Budget
+Fiat,500X,2022,Compact SUV,Petrol,Gasoline,5,26500,22000,Budget
+Fiat,Tipo,2023,Sedan,Petrol,Gasoline,5,18000,15000,Budget
+Fiat,Tipo,2021,Sedan,Petrol,Gasoline,5,17000,14000,Budget
+Fiat,Tipo Cross,2023,Station Wagon,Petrol,Gasoline,5,19500,16500,Budget
+Fiat,Doblo,2024,Minivan,Petrol,Gasoline,5,22000,18500,Budget
+Fiat,Doblo,2022,Minivan,Petrol,Gasoline,5,21000,17500,Budget
+Fiat,Ducato,2023,Van,Petrol,Gasoline,3,38000,32000,Commercial
+Fiat,Ducato,2021,Van,Petrol,Gasoline,3,36000,30000,Commercial
+Ford,EcoSport,2022,Compact SUV,Petrol,Gasoline,5,23335,20000,Budget
+Ford,EcoSport,2021,Compact SUV,Petrol,Gasoline,5,22500,19500,Budget
+Ford,Puma,2025,Compact SUV,Petrol,Gasoline,5,26550,22500,Budget
+Ford,Puma,2023,Compact SUV,Petrol,Gasoline,5,25500,21500,Budget
+Ford,Fiesta,2022,Hatchback,Petrol,Gasoline,5,20000,17000,Budget
+Ford,Fiesta,2021,Hatchback,Petrol,Gasoline,5,19500,16500,Budget
+Ford,Focus,2023,Hatchback,Petrol,Gasoline,5,28000,24000,Budget
+Ford,Focus,2022,Hatchback,Petrol,Gasoline,5,27000,23000,Budget
+Ford,Focus,2021,Hatchback,Petrol,Gasoline,5,26500,22500,Budget
+Ford,Focus ST,2023,Hatchback,Petrol,Gasoline,5,38000,32000,Mid-Range
+Ford,Fusion,2021,Sedan,Petrol,Gasoline,5,26000,22000,Budget
+Ford,Mondeo,2023,Sedan,Petrol,Gasoline,5,35000,30000,Mid-Range
+Ford,Mondeo,2021,Sedan,Petrol,Gasoline,5,33000,28000,Mid-Range
+Ford,Mustang,2025,Coupe,Petrol,Gasoline,4,34635,29500,Mid-Range
+Ford,Mustang,2023,Coupe,Petrol,Gasoline,4,33000,28000,Mid-Range
+Ford,Mustang,2021,Coupe,Petrol,Gasoline,4,31145,26500,Mid-Range
+Ford,Mustang Mach-E,2024,Electric SUV,Electric,Electric,5,39990,34000,Premium
+Ford,Mustang Mach-E,2022,Electric SUV,Electric,Electric,5,38000,32500,Premium
+Ford,F-150,2025,Pickup Truck,Petrol,Gasoline,5,39885,35000,Mid-Range
+Ford,F-150,2023,Pickup Truck,Petrol,Gasoline,5,34585,29500,Mid-Range
+Ford,F-150,2022,Pickup Truck,Petrol,Gasoline,5,33895,29000,Mid-Range
+Ford,F-150,2021,Pickup Truck,Petrol,Gasoline,5,29290,25000,Mid-Range
+Ford,F-150 Raptor,2025,Pickup Truck,Petrol,Gasoline,5,81600,70000,Premium
+Ford,F-150 Raptor,2023,Pickup Truck,Petrol,Gasoline,5,78000,67000,Premium
+Ford,F-150 Raptor,2022,Pickup Truck,Petrol,Gasoline,5,75000,64000,Premium
+Ford,F-150 Lightning,2024,Electric Truck,Electric,Electric,5,52375,45000,Premium
+Ford,F-150 Lightning,2023,Electric Truck,Electric,Electric,5,52000,44500,Premium
+Ford,F-150 Lightning,2022,Electric Truck,Electric,Electric,5,50000,42500,Premium
+Ford,Escape,2025,Compact SUV,Petrol,Gasoline,5,31845,27000,Mid-Range
+Ford,Escape,2023,Compact SUV,Petrol,Gasoline,5,30000,25500,Mid-Range
+Ford,Escape,2022,Compact SUV,Petrol,Gasoline,5,29000,24500,Mid-Range
+Ford,Escape,2021,Compact SUV,Petrol,Gasoline,5,28000,23500,Mid-Range
+Ford,Escape Hybrid,2024,Compact SUV,Hybrid,Gasoline,5,35000,29500,Mid-Range
+Ford,Escape Hybrid,2022,Compact SUV,Hybrid,Gasoline,5,33000,28000,Mid-Range
+Ford,Escape Plug-in Hybrid,2024,Compact SUV,Plug-in Hybrid,Gasoline,5,40500,34000,Premium
+Ford,Escape Plug-in Hybrid,2022,Compact SUV,Plug-in Hybrid,Gasoline,5,38000,32000,Premium
+Ford,Explorer,2025,Midsize SUV,Petrol,Gasoline,5,40160,34500,Mid-Range
+Ford,Explorer,2023,Midsize SUV,Petrol,Gasoline,5,38000,32000,Mid-Range
+Ford,Explorer,2022,Midsize SUV,Petrol,Gasoline,5,37000,31000,Mid-Range
+Ford,Explorer,2021,Midsize SUV,Petrol,Gasoline,5,36000,30000,Mid-Range
+Ford,Explorer ST,2024,Midsize SUV,Petrol,Gasoline,5,50105,43000,Mid-Range
+Ford,Explorer ST,2022,Midsize SUV,Petrol,Gasoline,5,48000,41000,Mid-Range
+Ford,Ranger,2025,Pickup Truck,Petrol,Gasoline,4,35245,30500,Mid-Range
+Ford,Ranger,2023,Pickup Truck,Petrol,Gasoline,4,34000,29000,Mid-Range
+Ford,Ranger,2022,Pickup Truck,Petrol,Gasoline,4,33000,28000,Mid-Range
+Ford,Ranger,2021,Pickup Truck,Petrol,Gasoline,4,32000,27000,Mid-Range
+Ford,Ranger Raptor,2024,Pickup Truck,Petrol,Gasoline,4,54000,46000,Premium
+Ford,Ranger Raptor,2022,Pickup Truck,Petrol,Gasoline,4,51000,43500,Premium
+Ford,Maverick,2025,Pickup Truck,Hybrid,Gasoline,5,29840,26000,Budget
+Ford,Maverick,2023,Pickup Truck,Hybrid,Gasoline,5,19995,17000,Budget
+Ford,Maverick,2022,Pickup Truck,Hybrid,Gasoline,5,19500,16500,Budget
+Ford,Maverick Hybrid,2025,Pickup Truck,Hybrid,Gasoline,5,31000,27000,Budget
+Ford,Edge,2024,Midsize SUV,Petrol,Gasoline,5,36000,30500,Mid-Range
+Ford,Edge,2022,Midsize SUV,Petrol,Gasoline,5,34000,28500,Mid-Range
+Ford,Edge,2021,Midsize SUV,Petrol,Gasoline,5,33000,27500,Mid-Range
+Ford,Expedition,2025,Full-size SUV,Petrol,Gasoline,5,61700,53000,Premium
+Ford,Expedition,2023,Full-size SUV,Petrol,Gasoline,5,59000,50500,Premium
+Ford,Expedition,2022,Full-size SUV,Petrol,Gasoline,5,57000,48500,Premium
+Ford,Expedition,2021,Full-size SUV,Petrol,Gasoline,5,55000,47000,Premium
+Ford,Transit Connect,2023,Van,Petrol,Gasoline,3,35995,30500,Commercial
+Ford,Transit Connect,2021,Van,Petrol,Gasoline,3,34500,29000,Commercial
+Ford,E-Transit,2024,Electric Van,Electric,Electric,3,55355,47000,Commercial
+Audi,A1,2023,Hatchback,Petrol,Gasoline,5,27000,23000,Budget
+Audi,A3,2024,Sedan,Petrol,Gasoline,5,41395,35000,Mid-Range
+Audi,A3,2022,Sedan,Petrol,Gasoline,5,39500,33500,Mid-Range
+Audi,A3,2021,Sedan,Petrol,Gasoline,5,38000,32000,Mid-Range
+Audi,A3 Sportback,2024,Hatchback,Petrol,Gasoline,5,40000,34000,Mid-Range
+Audi,A3 Sportback,2022,Hatchback,Petrol,Gasoline,5,38500,32500,Mid-Range
+Audi,A4,2023,Sedan,Petrol,Gasoline,5,42995,36500,Mid-Range
+Audi,A4,2022,Sedan,Petrol,Gasoline,5,42000,35500,Mid-Range
+Audi,A4,2021,Sedan,Petrol,Gasoline,5,40600,34500,Mid-Range
+Audi,A4 allroad,2023,Station Wagon,Petrol,Gasoline,5,48000,41000,Mid-Range
+Audi,A4 allroad,2022,Station Wagon,Petrol,Gasoline,5,47000,40000,Mid-Range
+Audi,A4 allroad,2021,Station Wagon,Petrol,Gasoline,5,45500,38500,Mid-Range
+Audi,A5,2024,Sedan,Petrol,Gasoline,5,51495,43500,Mid-Range
+Audi,A5,2023,Sedan,Petrol,Gasoline,5,50000,42500,Mid-Range
+Audi,A5,2021,Sedan,Petrol,Gasoline,5,48000,40500,Mid-Range
+Audi,A5 Coupe,2024,Coupe,Petrol,Gasoline,4,54000,46000,Mid-Range
+Audi,A5 Coupe,2022,Coupe,Petrol,Gasoline,4,52000,44000,Mid-Range
+Audi,A5 Sportback,2024,Station Wagon,Petrol,Gasoline,5,52000,44000,Mid-Range
+Audi,A5 Sportback,2022,Station Wagon,Petrol,Gasoline,5,50000,42000,Mid-Range
+Audi,A6,2025,Sedan,Petrol,Gasoline,5,65395,55000,Premium
+Audi,A6,2023,Sedan,Petrol,Gasoline,5,63000,53000,Premium
+Audi,A6,2022,Sedan,Petrol,Gasoline,5,62000,52000,Premium
+Audi,A6,2021,Sedan,Petrol,Gasoline,5,55945,47500,Premium
+Audi,A6 allroad,2024,Station Wagon,Petrol,Gasoline,5,74395,63000,Premium
+Audi,A6 allroad,2022,Station Wagon,Petrol,Gasoline,5,72000,61000,Premium
+Audi,A6 allroad,2021,Station Wagon,Petrol,Gasoline,5,69500,58500,Premium
+Audi,A8,2025,Luxury Sedan,Petrol,Gasoline,5,96395,82000,Luxury
+Audi,A8,2023,Luxury Sedan,Petrol,Gasoline,5,94000,79500,Luxury
+Audi,A8,2022,Luxury Sedan,Petrol,Gasoline,5,92500,78000,Luxury
+Audi,S3,2023,Hatchback,Petrol,Gasoline,5,50000,42500,Premium
+Audi,S3,2021,Hatchback,Petrol,Gasoline,5,48000,40500,Premium
+Audi,S4,2023,Sedan,Petrol,Gasoline,5,55595,47000,Premium
+Audi,S4,2022,Sedan,Petrol,Gasoline,5,54000,45500,Premium
+Audi,S4,2021,Sedan,Petrol,Gasoline,5,52500,44000,Premium
+Audi,S5,2023,Coupe,Petrol,Gasoline,4,58595,49500,Premium
+Audi,S5,2021,Coupe,Petrol,Gasoline,4,56500,47500,Premium
+Audi,RS3,2024,Sedan,Petrol,Gasoline,5,67395,57000,Premium
+Audi,RS3,2022,Sedan,Petrol,Gasoline,5,65000,55000,Premium
+Audi,RS6 Avant,2024,Station Wagon,Petrol,Gasoline,5,131995,112000,Luxury
+Audi,RS6 Avant,2022,Station Wagon,Petrol,Gasoline,5,117595,99500,Luxury
+Audi,RS6 Avant,2021,Station Wagon,Petrol,Gasoline,5,110045,93500,Luxury
+Audi,Q2,2023,Subcompact SUV,Petrol,Gasoline,5,36000,31000,Budget
+Audi,Q2,2021,Subcompact SUV,Petrol,Gasoline,5,34000,29000,Budget
+Audi,Q3,2024,Compact SUV,Petrol,Gasoline,5,44995,38000,Mid-Range
+Audi,Q3,2023,Compact SUV,Petrol,Gasoline,5,43500,37000,Mid-Range
+Audi,Q3,2022,Compact SUV,Petrol,Gasoline,5,42000,35500,Mid-Range
+Audi,Q3,2021,Compact SUV,Petrol,Gasoline,5,40000,33500,Mid-Range
+Audi,Q4 e-tron,2024,Electric SUV,Electric,Electric,5,53000,45000,Premium
+Audi,Q4 e-tron,2023,Electric SUV,Electric,Electric,5,51000,43000,Premium
+Audi,Q4 e-tron,2022,Electric SUV,Electric,Electric,5,49000,41000,Premium
+Audi,Q5,2024,Compact SUV,Petrol,Gasoline,5,54000,46000,Mid-Range
+Audi,Q5,2023,Compact SUV,Petrol,Gasoline,5,52000,44000,Mid-Range
+Audi,Q5,2022,Compact SUV,Petrol,Gasoline,5,50000,42000,Mid-Range
+Audi,Q5,2021,Compact SUV,Petrol,Gasoline,5,48000,40000,Mid-Range
+Audi,Q6,2024,Midsize SUV,Petrol,Gasoline,5,61000,52000,Premium
+Audi,Q7,2024,Midsize SUV,Petrol,Gasoline,7,65000,55000,Premium
+Audi,Q7,2023,Midsize SUV,Petrol,Gasoline,7,63000,53000,Premium
+Audi,Q7,2022,Midsize SUV,Petrol,Gasoline,7,61000,51000,Premium
+Audi,Q7,2021,Midsize SUV,Petrol,Gasoline,7,59000,49000,Premium
+Audi,Q8,2024,Midsize SUV,Petrol,Gasoline,5,68000,58000,Premium
+Audi,Q8,2023,Midsize SUV,Petrol,Gasoline,5,66000,56000,Premium
+Audi,Q8,2022,Midsize SUV,Petrol,Gasoline,5,64000,54000,Premium
+Audi,Q8 e-tron,2024,Electric SUV,Electric,Electric,5,75000,63000,Premium
+Audi,Q8 e-tron,2023,Electric SUV,Electric,Electric,5,73000,61000,Premium
+Audi,e-tron GT,2023,Electric Coupe,Electric,Electric,4,107995,91000,Luxury
+BMW,i3,2024,Hatchback,Electric,Electric,4,45000,38000,Premium
+BMW,i3,2022,Hatchback,Electric,Electric,4,42500,36000,Premium
+BMW,i4,2024,Electric Sedan,Electric,Electric,5,68844,58000,Premium
+BMW,i4,2023,Electric Sedan,Electric,Electric,5,67000,56500,Premium
+BMW,i4,2022,Electric Sedan,Electric,Electric,5,65000,55000,Premium
+BMW,i7,2024,Luxury Sedan,Electric,Electric,5,159859,135000,Luxury
+BMW,i7,2023,Luxury Sedan,Electric,Electric,5,157000,133000,Luxury
+BMW,i5,2024,Electric Sedan,Electric,Electric,5,84900,72000,Premium
+BMW,i5 Touring,2024,Electric Station Wagon,Electric,Electric,5,87000,74000,Premium
+BMW,1 Series,2023,Hatchback,Petrol,Gasoline,5,38000,32000,Budget
+BMW,1 Series,2021,Hatchback,Petrol,Gasoline,5,36000,30500,Budget
+BMW,2 Series,2024,Coupe,Petrol,Gasoline,2,44000,37000,Mid-Range
+BMW,2 Series,2022,Coupe,Petrol,Gasoline,2,42000,35500,Mid-Range
+BMW,2 Series Active Tourer,2024,MPV,Petrol,Gasoline,5,41000,35000,Budget
+BMW,2 Series Active Tourer,2022,MPV,Petrol,Gasoline,5,39000,33000,Budget
+BMW,3 Series,2024,Sedan,Petrol,Gasoline,5,44995,38000,Mid-Range
+BMW,3 Series,2023,Sedan,Petrol,Gasoline,5,43500,37000,Mid-Range
+BMW,3 Series,2022,Sedan,Petrol,Gasoline,5,41600,35000,Mid-Range
+BMW,3 Series,2021,Sedan,Petrol,Gasoline,5,40000,33500,Mid-Range
+BMW,3 Series Touring,2024,Station Wagon,Petrol,Gasoline,5,47000,40000,Mid-Range
+BMW,3 Series Touring,2022,Station Wagon,Petrol,Gasoline,5,44500,37500,Mid-Range
+BMW,3 Series Touring,2021,Station Wagon,Petrol,Gasoline,5,43000,36500,Mid-Range
+BMW,4 Series,2024,Coupe,Petrol,Gasoline,4,50000,42000,Mid-Range
+BMW,4 Series,2023,Coupe,Petrol,Gasoline,4,48000,40500,Mid-Range
+BMW,4 Series,2022,Coupe,Petrol,Gasoline,4,46000,38500,Mid-Range
+BMW,5 Series,2024,Sedan,Petrol,Gasoline,5,60500,51000,Premium
+BMW,5 Series,2023,Sedan,Petrol,Gasoline,5,59000,50000,Premium
+BMW,5 Series,2022,Sedan,Petrol,Gasoline,5,57000,48000,Premium
+BMW,5 Series,2021,Sedan,Petrol,Gasoline,5,54200,46000,Premium
+BMW,5 Series Touring,2024,Station Wagon,Petrol,Gasoline,5,63000,53000,Premium
+BMW,5 Series Touring,2022,Station Wagon,Petrol,Gasoline,5,60000,50500,Premium
+BMW,6 Series,2023,Coupe,Petrol,Gasoline,4,74000,62500,Premium
+BMW,6 Series,2022,Coupe,Petrol,Gasoline,4,72000,61000,Premium
+BMW,7 Series,2023,Luxury Sedan,Petrol,Gasoline,5,92000,78000,Luxury
+BMW,7 Series,2021,Luxury Sedan,Petrol,Gasoline,5,89000,75500,Luxury
+BMW,M440i,2024,Coupe,Petrol,Gasoline,4,58500,49000,Premium
+BMW,M440i,2022,Coupe,Petrol,Gasoline,4,56500,47500,Premium
+BMW,M540i,2024,Sedan,Petrol,Gasoline,5,72000,60000,Premium
+BMW,M3,2023,Sedan,Petrol,Gasoline,4,76000,64000,Premium
+BMW,M3,2022,Sedan,Petrol,Gasoline,4,74000,62500,Premium
+BMW,M4,2023,Coupe,Petrol,Gasoline,4,87000,73000,Premium
+BMW,M4,2022,Coupe,Petrol,Gasoline,4,85000,71500,Premium
+BMW,X1,2024,Compact SUV,Petrol,Gasoline,5,44000,37000,Budget
+BMW,X1,2023,Compact SUV,Petrol,Gasoline,5,42500,35500,Budget
+BMW,X1,2022,Compact SUV,Petrol,Gasoline,5,41000,34000,Budget
+BMW,X2,2023,Compact SUV,Petrol,Gasoline,5,48000,41000,Budget
+BMW,X2,2022,Compact SUV,Petrol,Gasoline,5,46500,39500,Budget
+BMW,X2,2021,Compact SUV,Petrol,Gasoline,5,45000,38000,Budget
+BMW,X3,2024,Compact SUV,Petrol,Gasoline,5,57000,48000,Mid-Range
+BMW,X3,2023,Compact SUV,Petrol,Gasoline,5,55000,46500,Mid-Range
+BMW,X3,2022,Compact SUV,Petrol,Gasoline,5,53000,44500,Mid-Range
+BMW,X3,2021,Compact SUV,Petrol,Gasoline,5,51000,43000,Mid-Range
+BMW,X4,2023,Compact SUV,Petrol,Gasoline,5,59000,50000,Mid-Range
+BMW,X4,2022,Compact SUV,Petrol,Gasoline,5,57000,48000,Mid-Range
+BMW,X4,2021,Compact SUV,Petrol,Gasoline,5,55000,46000,Mid-Range
+BMW,X5,2024,Midsize SUV,Petrol,Gasoline,5,73000,62000,Premium
+BMW,X5,2023,Midsize SUV,Petrol,Gasoline,5,71000,60000,Premium
+BMW,X5,2022,Midsize SUV,Petrol,Gasoline,5,69000,58000,Premium
+BMW,X5,2021,Midsize SUV,Petrol,Gasoline,5,66000,55500,Premium
+BMW,X6,2023,Midsize SUV,Petrol,Gasoline,5,76000,64000,Premium
+BMW,X6,2022,Midsize SUV,Petrol,Gasoline,5,74000,62000,Premium
+BMW,X6,2021,Midsize SUV,Petrol,Gasoline,5,71000,59500,Premium
+BMW,X7,2023,Full-size SUV,Petrol,Gasoline,7,95000,80000,Luxury
+BMW,X7,2022,Full-size SUV,Petrol,Gasoline,7,93000,78500,Luxury
+BMW,X7,2021,Full-size SUV,Petrol,Gasoline,7,90000,76000,Luxury
+Mercedes-Benz,A-Class,2024,Sedan,Petrol,Gasoline,5,39000,33000,Mid-Range
+Mercedes-Benz,A-Class,2022,Sedan,Petrol,Gasoline,5,37000,31000,Mid-Range
+Mercedes-Benz,A-Class,2021,Sedan,Petrol,Gasoline,5,35500,30000,Mid-Range
+Mercedes-Benz,A-Class Sedan,2024,Sedan,Petrol,Gasoline,5,40000,34000,Mid-Range
+Mercedes-Benz,C-Class,2025,Sedan,Petrol,Gasoline,5,49650,42000,Mid-Range
+Mercedes-Benz,C-Class,2023,Sedan,Petrol,Gasoline,5,48000,40500,Mid-Range
+Mercedes-Benz,C-Class,2022,Sedan,Petrol,Gasoline,5,47000,39500,Mid-Range
+Mercedes-Benz,C-Class,2021,Sedan,Petrol,Gasoline,5,45400,38000,Mid-Range
+Mercedes-Benz,C-Class Estate,2025,Station Wagon,Petrol,Gasoline,5,51650,44000,Mid-Range
+Mercedes-Benz,C-Class Estate,2023,Station Wagon,Petrol,Gasoline,5,50000,42000,Mid-Range
+Mercedes-Benz,C-Class Estate,2022,Station Wagon,Petrol,Gasoline,5,49000,41000,Mid-Range
+Mercedes-Benz,C-Class Estate,2021,Station Wagon,Petrol,Gasoline,5,47000,39500,Mid-Range
+Mercedes-Benz,E-Class,2024,Sedan,Petrol,Gasoline,5,65000,55000,Premium
+Mercedes-Benz,E-Class,2023,Sedan,Petrol,Gasoline,5,63000,53000,Premium
+Mercedes-Benz,E-Class,2022,Sedan,Petrol,Gasoline,5,61000,51000,Premium
+Mercedes-Benz,E-Class,2021,Sedan,Petrol,Gasoline,5,59200,49500,Premium
+Mercedes-Benz,E-Class Coupe,2024,Coupe,Petrol,Gasoline,4,72000,61000,Premium
+Mercedes-Benz,E-Class Coupe,2023,Coupe,Petrol,Gasoline,4,70000,59000,Premium
+Mercedes-Benz,E-Class Coupe,2022,Coupe,Petrol,Gasoline,4,68000,57000,Premium
+Mercedes-Benz,E-Class Estate,2024,Station Wagon,Petrol,Gasoline,5,67000,56500,Premium
+Mercedes-Benz,E-Class Estate,2023,Station Wagon,Petrol,Gasoline,5,65000,54500,Premium
+Mercedes-Benz,E-Class Estate,2022,Station Wagon,Petrol,Gasoline,5,63000,52500,Premium
+Mercedes-Benz,E-Class Estate,2021,Station Wagon,Petrol,Gasoline,5,60500,50500,Premium
+Mercedes-Benz,S-Class,2024,Luxury Sedan,Petrol,Gasoline,5,120000,102000,Luxury
+Mercedes-Benz,S-Class,2023,Luxury Sedan,Petrol,Gasoline,5,117000,99000,Luxury
+Mercedes-Benz,S-Class,2022,Luxury Sedan,Petrol,Gasoline,5,114000,96000,Luxury
+Mercedes-Benz,S-Class,2021,Luxury Sedan,Petrol,Gasoline,5,110000,93000,Luxury
+Mercedes-Benz,S-Class Coupe,2024,Coupe,Petrol,Gasoline,4,127000,107500,Luxury
+Mercedes-Benz,S-Class Coupe,2023,Coupe,Petrol,Gasoline,4,124000,104500,Luxury
+Mercedes-Benz,S-Class Coupe,2022,Coupe,Petrol,Gasoline,4,121000,101500,Luxury
+Mercedes-Benz,AMG C 63,2024,Sedan,Petrol,Gasoline,5,78000,66000,Premium
+Mercedes-Benz,AMG C 63,2023,Sedan,Petrol,Gasoline,5,76000,64000,Premium
+Mercedes-Benz,AMG C 63,2022,Sedan,Petrol,Gasoline,5,74000,62000,Premium
+Mercedes-Benz,AMG E 63,2024,Sedan,Petrol,Gasoline,5,104000,88000,Luxury
+Mercedes-Benz,AMG E 63,2023,Sedan,Petrol,Gasoline,5,101000,85500,Luxury
+Mercedes-Benz,AMG E 63,2022,Sedan,Petrol,Gasoline,5,98000,83000,Luxury
+Mercedes-Benz,AMG S 63,2024,Luxury Sedan,Petrol,Gasoline,5,155000,131000,Luxury
+Mercedes-Benz,AMG S 63,2023,Luxury Sedan,Petrol,Gasoline,5,151000,127000,Luxury
+Mercedes-Benz,AMG S 63,2022,Luxury Sedan,Petrol,Gasoline,5,147000,123000,Luxury
+Mercedes-Benz,GLA,2024,Compact SUV,Petrol,Gasoline,5,48000,40500,Mid-Range
+Mercedes-Benz,GLA,2023,Compact SUV,Petrol,Gasoline,5,46000,38500,Mid-Range
+Mercedes-Benz,GLA,2022,Compact SUV,Petrol,Gasoline,5,44000,37000,Mid-Range
+Mercedes-Benz,GLA,2021,Compact SUV,Petrol,Gasoline,5,42000,35000,Mid-Range
+Mercedes-Benz,GLB,2023,Compact SUV,Petrol,Gasoline,5,49000,41500,Mid-Range
+Mercedes-Benz,GLB,2022,Compact SUV,Petrol,Gasoline,5,47000,39500,Mid-Range
+Mercedes-Benz,GLB,2021,Compact SUV,Petrol,Gasoline,5,45000,37500,Mid-Range
+Mercedes-Benz,GLC,2024,Midsize SUV,Petrol,Gasoline,5,65000,55000,Premium
+Mercedes-Benz,GLC,2023,Midsize SUV,Petrol,Gasoline,5,63000,53000,Premium
+Mercedes-Benz,GLC,2022,Midsize SUV,Petrol,Gasoline,5,61000,51000,Premium
+Mercedes-Benz,GLC,2021,Midsize SUV,Petrol,Gasoline,5,58500,49000,Premium
+Mercedes-Benz,GLC Coupe,2024,Coupe SUV,Petrol,Gasoline,5,67000,56500,Premium
+Mercedes-Benz,GLC Coupe,2023,Coupe SUV,Petrol,Gasoline,5,65000,54500,Premium
+Mercedes-Benz,GLC Coupe,2022,Coupe SUV,Petrol,Gasoline,5,63000,52500,Premium
+Mercedes-Benz,GLE,2024,Midsize SUV,Petrol,Gasoline,5,78000,66000,Premium
+Mercedes-Benz,GLE,2023,Midsize SUV,Petrol,Gasoline,5,76000,64000,Premium
+Mercedes-Benz,GLE,2022,Midsize SUV,Petrol,Gasoline,5,74000,62000,Premium
+Mercedes-Benz,GLE,2021,Midsize SUV,Petrol,Gasoline,5,71000,59500,Premium
+Mercedes-Benz,GLE Coupe,2024,Coupe SUV,Petrol,Gasoline,5,81000,68500,Premium
+Mercedes-Benz,GLE Coupe,2023,Coupe SUV,Petrol,Gasoline,5,79000,66500,Premium
+Mercedes-Benz,GLE Coupe,2022,Coupe SUV,Petrol,Gasoline,5,77000,64500,Premium
+Mercedes-Benz,GLS,2024,Full-size SUV,Petrol,Gasoline,7,96000,81000,Luxury
+Mercedes-Benz,GLS,2023,Full-size SUV,Petrol,Gasoline,7,94000,79000,Luxury
+Mercedes-Benz,GLS,2022,Full-size SUV,Petrol,Gasoline,7,92000,77000,Luxury
+Mercedes-Benz,GLS,2021,Full-size SUV,Petrol,Gasoline,7,89000,74500,Luxury
+Mercedes-Benz,EQE,2024,Electric Sedan,Electric,Electric,5,79346,67000,Premium
+Mercedes-Benz,EQE,2023,Electric Sedan,Electric,Electric,5,77000,65000,Premium
+Mercedes-Benz,EQE SUV,2024,Electric SUV,Electric,Electric,5,81000,68500,Premium
+Mercedes-Benz,EQE SUV,2023,Electric SUV,Electric,Electric,5,79000,66500,Premium
+Mercedes-Benz,EQS,2024,Luxury EV Sedan,Electric,Electric,5,102683,87000,Luxury
+Mercedes-Benz,EQS,2023,Luxury EV Sedan,Electric,Electric,5,100000,84500,Luxury
+Mercedes-Benz,EQS,2022,Luxury EV Sedan,Electric,Electric,5,97500,82000,Luxury
+Mercedes-Benz,EQS SUV,2024,Luxury EV SUV,Electric,Electric,7,107000,91000,Luxury
+Mercedes-Benz,EQS SUV,2023,Luxury EV SUV,Electric,Electric,7,104000,88000,Luxury
+BYD,Seagull,2024,Hatchback,Electric,Electric,5,18000,15500,Budget
+BYD,Yuan Plus,2024,Compact SUV,Electric,Electric,5,32000,27000,Premium
+BYD,Yuan Plus,2022,Compact SUV,Electric,Electric,5,30000,25500,Premium
+BYD,Qin,2024,Sedan,Plug-in Hybrid,Gasoline,5,22000,18500,Budget
+BYD,Qin,2022,Sedan,Plug-in Hybrid,Gasoline,5,20000,17000,Budget
+BYD,Qin,2021,Sedan,Plug-in Hybrid,Gasoline,5,19000,16000,Budget
+BYD,Song Plus,2024,Compact SUV,Petrol,Gasoline,5,25000,21000,Budget
+BYD,Song Plus,2022,Compact SUV,Petrol,Gasoline,5,23500,20000,Budget
+BYD,Song Plus EV,2024,Electric SUV,Electric,Electric,5,28000,23500,Premium
+BYD,Song Plus EV,2022,Electric SUV,Electric,Electric,5,26000,22000,Premium
+BYD,Song Pro,2024,Midsize SUV,Petrol,Gasoline,5,32000,27000,Mid-Range
+BYD,Song Pro,2022,Midsize SUV,Petrol,Gasoline,5,30000,25500,Mid-Range
+BYD,Atto 3,2024,Compact SUV,Electric,Electric,5,39000,33000,Premium
+BYD,Atto 3,2022,Compact SUV,Electric,Electric,5,37000,31500,Premium
+BYD,Atto 3 DM-i,2024,Compact SUV,Plug-in Hybrid,Gasoline,5,35000,29500,Premium
+BYD,Qin Max,2024,Sedan,Plug-in Hybrid,Gasoline,5,28000,23500,Mid-Range
+BYD,Qin Max,2022,Sedan,Plug-in Hybrid,Gasoline,5,26000,22000,Mid-Range
+BYD,Qin Max DM-i,2024,Sedan,Plug-in Hybrid,Gasoline,5,26000,22000,Mid-Range
+BYD,Tang,2024,Midsize SUV,Plug-in Hybrid,Gasoline,7,40000,34000,Premium
+BYD,Tang,2022,Midsize SUV,Plug-in Hybrid,Gasoline,7,38000,32000,Premium
+BYD,Han EV,2025,Sedan,Electric,Electric,5,26838,22500,Mid-Range
+BYD,Han EV,2023,Sedan,Electric,Electric,5,25000,21000,Mid-Range
+BYD,Han DM-i,2024,Sedan,Plug-in Hybrid,Gasoline,5,24000,20000,Budget
+BYD,Han DM-i,2022,Sedan,Plug-in Hybrid,Gasoline,5,22000,18500,Budget
+BYD,Dolphin,2024,Hatchback,Electric,Electric,5,20000,17000,Budget
+BYD,Dolphin,2022,Hatchback,Electric,Electric,5,18500,15500,Budget
+BYD,Dolphin EV,2024,Hatchback,Electric,Electric,5,22000,18500,Budget
+BYD,Yuan Pro,2024,Compact SUV,Electric,Electric,5,34000,28500,Premium
+Chery,Omoda 5,2024,Compact SUV,Petrol,Gasoline,5,25000,21000,Budget
+Chery,Omoda 5 EV,2024,Electric SUV,Electric,Electric,5,35000,29500,Premium
+Chery,Omoda 5 Plus,2024,Compact SUV,Petrol,Gasoline,5,26000,22000,Budget
+Chery,Tiggo 3,2023,Subcompact SUV,Petrol,Gasoline,5,18000,15500,Budget
+Chery,Tiggo 3,2021,Subcompact SUV,Petrol,Gasoline,5,16500,14000,Budget
+Chery,Tiggo 5X,2023,Compact SUV,Petrol,Gasoline,5,24000,20000,Budget
+Chery,Tiggo 5X,2021,Compact SUV,Petrol,Gasoline,5,22500,19000,Budget
+Chery,Tiggo 7,2023,Midsize SUV,Petrol,Gasoline,5,28000,23500,Mid-Range
+Chery,Tiggo 7,2021,Midsize SUV,Petrol,Gasoline,5,26000,22000,Mid-Range
+Chery,Tiggo 7 EV,2023,Electric SUV,Electric,Electric,5,32000,27000,Premium
+Chery,Tiggo 8,2023,Midsize SUV,Petrol,Gasoline,5,31000,26000,Mid-Range
+Chery,Tiggo 8,2021,Midsize SUV,Petrol,Gasoline,5,29000,24500,Mid-Range
+Chery,Tiggo Pro,2024,Compact SUV,Petrol,Gasoline,5,20000,17000,Budget
+Chery,Arrizo 5,2023,Sedan,Petrol,Gasoline,5,19000,16000,Budget
+Chery,Arrizo 5,2021,Sedan,Petrol,Gasoline,5,17500,14500,Budget
+Chery,Arrizo 6,2024,Sedan,Petrol,Gasoline,5,21000,17500,Budget
+Chery,Arrizo 6,2022,Sedan,Petrol,Gasoline,5,20000,16500,Budget
+Changan,Alsvin,2024,Sedan,Petrol,Gasoline,5,14000,12000,Budget
+Changan,Alsvin,2022,Sedan,Petrol,Gasoline,5,13000,11000,Budget
+Changan,CS35,2023,Compact SUV,Petrol,Gasoline,5,20000,17000,Budget
+Changan,CS35,2021,Compact SUV,Petrol,Gasoline,5,18500,15500,Budget
+Changan,CS35 Plus,2024,Compact SUV,Petrol,Gasoline,5,21000,17500,Budget
+Changan,CS35 Plus,2022,Compact SUV,Petrol,Gasoline,5,20000,16500,Budget
+Changan,CS35 EV,2023,Electric SUV,Electric,Electric,5,24000,20000,Premium
+Changan,CS35 EV,2021,Electric SUV,Electric,Electric,5,22000,18500,Premium
+Changan,CS55,2023,Compact SUV,Petrol,Gasoline,5,23000,19500,Budget
+Changan,CS55,2021,Compact SUV,Petrol,Gasoline,5,21500,18000,Budget
+Changan,CS55 Plus,2024,Compact SUV,Petrol,Gasoline,5,24000,20500,Budget
+Changan,CS55 Plus,2022,Compact SUV,Petrol,Gasoline,5,23000,19500,Budget
+Changan,UNI-K,2023,Midsize SUV,Petrol,Gasoline,5,32000,27000,Mid-Range
+Changan,UNI-K,2021,Midsize SUV,Petrol,Gasoline,5,30000,25000,Mid-Range
+Changan,UNI-K Hybrid,2024,Midsize SUV,Hybrid,Gasoline,5,34000,28500,Mid-Range
+Changan,UNI-K EV,2023,Electric SUV,Electric,Electric,5,38000,32000,Premium
+Changan,UNI-K EV,2021,Electric SUV,Electric,Electric,5,36000,30000,Premium
+Changan,UNI-Z,2024,Sedan,Petrol,Gasoline,5,18000,15500,Budget
+Changan,UNI-Z,2022,Sedan,Petrol,Gasoline,5,17000,14500,Budget
+MG,4,2024,Electric Hatchback,Electric,Electric,5,28000,23500,Budget
+MG,4 EV,2024,Electric Hatchback,Electric,Electric,5,30000,25000,Premium
+MG,4 EV,2022,Electric Hatchback,Electric,Electric,5,28000,23500,Premium
+MG,5,2024,Electric Station Wagon,Electric,Electric,5,32000,26500,Mid-Range
+MG,5 SW EV,2024,Electric Station Wagon,Electric,Electric,5,34000,28500,Mid-Range
+MG,ZS,2024,Compact SUV,Petrol,Gasoline,5,19000,16000,Budget
+MG,ZS,2022,Compact SUV,Petrol,Gasoline,5,17500,14500,Budget
+MG,ZS EV,2024,Electric SUV,Electric,Electric,5,32000,27000,Premium
+MG,ZS EV,2022,Electric SUV,Electric,Electric,5,30000,25500,Premium
+MG,ZS Hybrid,2024,Compact SUV,Hybrid,Gasoline,5,21000,17500,Budget
+MG,RX5,2023,Midsize SUV,Petrol,Gasoline,5,35000,29500,Mid-Range
+MG,RX5,2021,Midsize SUV,Petrol,Gasoline,5,33000,27500,Mid-Range
+MG,RX5 EV,2023,Electric SUV,Electric,Electric,5,40000,34000,Premium
+MG,RX5 EV,2021,Electric SUV,Electric,Electric,5,38000,32000,Premium
+MG,RX8,2024,Midsize SUV,Petrol,Gasoline,7,38000,32000,Mid-Range
+MG,RX8 PHEV,2024,Midsize SUV,Plug-in Hybrid,Gasoline,7,42000,35500,Mid-Range
+Suzuki,Swift,2024,Hatchback,Petrol,Gasoline,5,17000,14500,Budget
+Suzuki,Swift,2023,Hatchback,Petrol,Gasoline,5,16500,14000,Budget
+Suzuki,Swift,2022,Hatchback,Petrol,Gasoline,5,16000,13500,Budget
+Suzuki,Swift Hybrid,2024,Hatchback,Hybrid,Gasoline,5,18500,15500,Budget
+Suzuki,Swift Hybrid,2022,Hatchback,Hybrid,Gasoline,5,17500,14500,Budget
+Suzuki,Ciaz,2024,Sedan,Petrol,Gasoline,5,14300,12500,Budget
+Suzuki,Ciaz,2022,Sedan,Petrol,Gasoline,5,13500,11500,Budget
+Suzuki,Ciaz,2021,Sedan,Petrol,Gasoline,5,13000,11000,Budget
+Suzuki,Vitara,2023,Compact SUV,Petrol,Gasoline,5,28000,23500,Mid-Range
+Suzuki,Vitara,2022,Compact SUV,Petrol,Gasoline,5,27000,22500,Mid-Range
+Suzuki,Vitara,2021,Compact SUV,Petrol,Gasoline,5,26000,21500,Mid-Range
+Suzuki,Vitara Hybrid,2023,Compact SUV,Hybrid,Gasoline,5,29500,24500,Mid-Range
+Suzuki,Vitara Hybrid,2022,Compact SUV,Hybrid,Gasoline,5,28500,23500,Mid-Range
+Suzuki,Jimny,2023,Compact SUV,Petrol,Gasoline,4,20000,17000,Budget
+Suzuki,Jimny,2022,Compact SUV,Petrol,Gasoline,4,19500,16500,Budget
+Suzuki,Jimny,2021,Compact SUV,Petrol,Gasoline,4,19000,16000,Budget
+Suzuki,Ertiga,2024,Compact MPV,Petrol,Gasoline,7,17000,14500,Budget
+Suzuki,Ertiga,2023,Compact MPV,Petrol,Gasoline,7,16500,14000,Budget
+Suzuki,Ertiga,2022,Compact MPV,Petrol,Gasoline,7,16000,13500,Budget
+Suzuki,Fronx,2023,Compact SUV,Petrol,Gasoline,5,18000,15000,Budget
+Suzuki,Fronx,2021,Compact SUV,Petrol,Gasoline,5,17000,14000,Budget
+Suzuki,S-Presso,2023,Hatchback,Petrol,Gasoline,5,10000,8500,Budget
+Suzuki,S-Presso,2021,Hatchback,Petrol,Gasoline,5,9500,8000,Budget
+Suzuki,Celerio,2023,Hatchback,Petrol,Gasoline,5,11000,9500,Budget
+Suzuki,Celerio,2021,Hatchback,Petrol,Gasoline,5,10500,9000,Budget
