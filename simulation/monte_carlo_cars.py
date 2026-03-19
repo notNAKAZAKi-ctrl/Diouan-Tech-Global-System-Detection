@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 
 INPUT_FILE  = "data/cars_model_ready.csv"
 MODEL_FILE  = "models/cars/random_forest_cars.pkl"
-OUTPUT_FILE = "data/simulation_cars.csv"
+OUTPUT_FILE = "reports/simulation_cars.csv"
 CHART_PATH  = "reports/simulation_audit_cars.png"
 
 # Paramètres de simulation (définis dans le Cahier des Charges)

@@ -1,6 +1,6 @@
 # models/phones/train_phones.py
 # PFE — Système de Détection de Fraude et Valorisation Douanière
-# Module 2 : Téléphones | Random Forest Regressor — Training Pipeline
+# Module 2 : Téléphones | Random Forest Regressor — Training Pipeline v2
 # Auteur : Mohammed Amine HAMOUTTI | Encadrant : Yassine AMMAMI
 
 import pandas as pd
@@ -8,6 +8,7 @@ import numpy as np
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from matplotlib.patches import Patch
 import joblib
 import os
 
@@ -29,12 +30,15 @@ RANDOM_SEED = 42
 
 TARGET = "price_mad"
 
+# v2 : ajout de "model" comme feature catégorielle — impact majeur sur R²
+# "Samsung Galaxy S24 Ultra" vs "Samsung Galaxy A15" = différence de prix énorme
+# Le modèle ne pouvait pas le savoir sans cette colonne
 NUMERIC_FEATURES = [
     "ram_gb", "storage_gb", "battery_mah", "nfc"
 ]
 
 CATEGORICAL_FEATURES = [
-    "brand", "chip_company", "os_type"
+    "brand", "model", "chip_company", "os_type"
 ]
 
 ALL_FEATURES = NUMERIC_FEATURES + CATEGORICAL_FEATURES
@@ -47,7 +51,7 @@ ALL_FEATURES = NUMERIC_FEATURES + CATEGORICAL_FEATURES
 def run_training():
     print("=" * 65)
     print("  PFE — MODULE 2 : TÉLÉPHONES")
-    print("  Random Forest Regressor — Training Pipeline")
+    print("  Random Forest Regressor — Training Pipeline v2")
     print("=" * 65)
 
     # ------------------------------------------------------------------
@@ -64,7 +68,8 @@ def run_training():
     print(f"  ├─ Lignes       : {len(df):,}")
     print(f"  ├─ Colonnes     : {df.shape[1]}")
     print(f"  ├─ Nulls        : {df.isnull().sum().sum()} (attendu : 0)")
-    print(f"  └─ Prix (MAD)   : {df[TARGET].min():,} – {df[TARGET].max():,}")
+    print(f"  ├─ Prix (MAD)   : {df[TARGET].min():,} – {df[TARGET].max():,}")
+    print(f"  └─ Sources      : {df['source'].value_counts().to_dict()}")
 
     missing = [c for c in ALL_FEATURES + [TARGET] if c not in df.columns]
     if missing:
@@ -105,16 +110,16 @@ def run_training():
     ])
 
     # ------------------------------------------------------------------
-    # 4. Pipeline complet
+    # 4. Pipeline — hyperparamètres ajustés pour petit dataset
     # ------------------------------------------------------------------
     model_pipeline = Pipeline([
         ("preprocessor", preprocessor),
         ("regressor", RandomForestRegressor(
-            n_estimators=300,
-            max_depth=20,
-            min_samples_split=4,
-            min_samples_leaf=2,
-            max_features=0.7,
+            n_estimators=500,      # plus d'arbres → plus stable sur peu de données
+            max_depth=15,          # moins profond → évite l'overfitting
+            min_samples_split=3,   # splits plus permissifs sur petit dataset
+            min_samples_leaf=1,    # feuilles unitaires autorisées
+            max_features=0.8,      # voit plus de features par split
             random_state=RANDOM_SEED,
             n_jobs=-1
         ))
@@ -123,7 +128,7 @@ def run_training():
     # ------------------------------------------------------------------
     # 5. Entraînement
     # ------------------------------------------------------------------
-    print(f"\n  Entraînement en cours (300 arbres)...")
+    print(f"\n  Entraînement en cours (500 arbres, model feature inclus)...")
     model_pipeline.fit(X_train, y_train)
     print(f"  Entraînement terminé ✅")
 
@@ -153,17 +158,24 @@ def run_training():
     print(f"  Within ±20% threshold              : {within_20:>9.2f}%")
     print("=" * 65)
 
+    # Avertissement si R² encore insuffisant
+    if r2 < 0.75:
+        print("\n  ⚠️  R² < 0.75 — envisager d'enrichir le dataset")
+        print("       (scraping Avito.ma pour prix MAD réels)")
+    else:
+        print(f"\n  ✅ Modèle acceptable pour la détection de fraude")
+
     # ------------------------------------------------------------------
     # 8. Sauvegarde du modèle
     # ------------------------------------------------------------------
     os.makedirs("models/phones", exist_ok=True)
     joblib.dump(model_pipeline, MODEL_FILE)
-    print(f"\n  Modèle sauvegardé → '{MODEL_FILE}'")
+    print(f"  Modèle sauvegardé → '{MODEL_FILE}'")
 
     # ------------------------------------------------------------------
     # 9. Feature importance
     # ------------------------------------------------------------------
-    _plot_feature_importance(model_pipeline, mae, mape, r2)
+    _plot_feature_importance(model_pipeline, mae, rmse, mape, r2)
 
     print("\n" + "=" * 65)
     print("  ENTRAÎNEMENT TERMINÉ — Module 2 : Téléphones")
@@ -175,15 +187,15 @@ def run_training():
 #  FEATURE IMPORTANCE
 # ==============================================================================
 
-def _plot_feature_importance(pipeline, mae, mape, r2):
+def _plot_feature_importance(pipeline, mae, rmse, mape, r2):
 
-    rf_model   = pipeline.named_steps["regressor"]
+    rf_model    = pipeline.named_steps["regressor"]
     importances = rf_model.feature_importances_
 
     feature_names = NUMERIC_FEATURES + CATEGORICAL_FEATURES
     fi = pd.Series(importances, index=feature_names).sort_values(ascending=True)
 
-    top3 = fi.nlargest(3).index.tolist()
+    top3   = fi.nlargest(3).index.tolist()
     colors = ["#2ecc71" if f in top3 else "#3498db" for f in fi.index]
 
     fig, ax = plt.subplots(figsize=(10, 6))
@@ -194,7 +206,6 @@ def _plot_feature_importance(pipeline, mae, mape, r2):
         ax.text(bar.get_width() + 0.002, bar.get_y() + bar.get_height() / 2,
                 f"{val:.3f}", va="center", ha="left", fontsize=9)
 
-    from matplotlib.patches import Patch
     legend_elements = [
         Patch(facecolor="#2ecc71", label="Top 3 features"),
         Patch(facecolor="#3498db", label="Other features")
@@ -204,7 +215,8 @@ def _plot_feature_importance(pipeline, mae, mape, r2):
     ax.set_xlabel("Importance (Réduction d'Impureté de Gini)", fontsize=11)
     ax.set_title(
         "Importance des Variables — Random Forest Regressor\n"
-        "PFE : Système de Détection de Fraude et Valorisation Douanière — Module Téléphones",
+        "PFE : Système de Détection de Fraude et Valorisation Douanière"
+        " — Module Téléphones",
         fontsize=12, fontweight="bold"
     )
 
