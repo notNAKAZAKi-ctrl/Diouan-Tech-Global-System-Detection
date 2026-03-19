@@ -10,7 +10,6 @@ import os
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
-from matplotlib.patches import Patch
 
 # ==============================================================================
 #  CONFIGURATION
@@ -70,7 +69,6 @@ def run_simulation():
 
     # ------------------------------------------------------------------
     # 2. Echantillonnage aléatoire de 5 000 véhicules
-    #    (replace=True permet de dépasser la taille du dataset si besoin)
     # ------------------------------------------------------------------
     np.random.seed(RANDOM_SEED)
 
@@ -83,16 +81,18 @@ def run_simulation():
     print(f"  Echantillon      : {N_TOTAL:,} déclarations tirées aléatoirement")
 
     # ------------------------------------------------------------------
-    # 3. ETAPE 1 DU CHECKLIST — Définir la "Vérité Terrain"
-    #    Le modèle Random Forest prédit le prix marché réel (fair value)
-    #    pour chacune des 5 000 déclarations. C'est notre référence.
+    # 3. ETAPE 1 — Définir la "Vérité Terrain" (Prix marché réel)
+    #
+    #    Le modèle Random Forest prédit le prix de référence pour chaque
+    #    déclaration. C'est la valeur contre laquelle on compare le prix
+    #    déclaré par l'importateur.
     # ------------------------------------------------------------------
     print("\n  Calcul des valeurs de référence (fair values)...")
     fair_values = model.predict(sample)
     print("  Fair values calculées.")
 
     # ------------------------------------------------------------------
-    # 4. Attribution des types de déclarations (Monte Carlo)
+    # 4. Attribution aléatoire des types de déclarations
     #    85% conformes / 15% frauduleuses — mélangées aléatoirement
     # ------------------------------------------------------------------
     n_honest = int(N_TOTAL * HONEST_RATE)   # 4 250
@@ -102,13 +102,19 @@ def run_simulation():
     np.random.shuffle(labels)
 
     # ------------------------------------------------------------------
-    # 5. ETAPE 2 DU CHECKLIST — Simuler 85% d'importateurs honnêtes
-    #    Prix déclaré = valeur marché ± bruit aléatoire de 10% max
-    #    (distribution normale, écart-type 5%, clippée à ±10%)
+    # 5. ETAPE 2 — Simuler 85% d'importateurs honnêtes
     #
-    #    ETAPE 3 DU CHECKLIST — Simuler 15% de fraudeurs
-    #    Prix déclaré = 40% à 60% seulement de la valeur marché réelle
-    #    (sous-facturation intentionnelle, distribution uniforme)
+    #    Prix déclaré = prix marché + bruit gaussien (écart-type 8%)
+    #    Clipé entre 78% et 122% pour introduire des cas limites réalistes.
+    #    Certains importateurs honnêtes négocient légèrement sous le marché
+    #    et peuvent franchir le seuil de 20% — ce sont les faux positifs.
+    #
+    #    ETAPE 3 — Simuler 15% de fraudeurs
+    #
+    #    Prix déclaré = 55% à 85% de la valeur réelle (distribution uniforme)
+    #    La borne haute à 85% génère des cas ambigus autour du seuil de 20%
+    #    que le système ne détecte pas toujours — ce sont les faux négatifs.
+    #    C'est ce qui rend la simulation réaliste et crédible.
     # ------------------------------------------------------------------
     declared_prices = np.zeros(N_TOTAL)
 
@@ -116,35 +122,38 @@ def run_simulation():
         fv = fair_values[i]
 
         if labels[i] == "Conforme":
-            # Importateur honnête : légère variation autour du prix réel
-            noise = np.random.normal(loc=1.0, scale=0.05)
-            noise = np.clip(noise, 0.90, 1.10)  # ±10% maximum
+            # Importateur honnête : petite variation naturelle autour du prix marché
+            noise = np.random.normal(loc=1.0, scale=0.08)
+            noise = np.clip(noise, 0.78, 1.22)
             declared_prices[i] = fv * noise
+
         else:
-            # Fraudeur : déclare seulement 40 à 60% de la vraie valeur
-            fraud_ratio = np.random.uniform(0.40, 0.60)
+            # Fraudeur : déclare entre 55% et 85% du prix réel
+            # Les fraudeurs prudents (>80%) sont difficiles à attraper
+            fraud_ratio = np.random.uniform(0.55, 0.85)
             declared_prices[i] = fv * fraud_ratio
 
-    # Sécurité : aucun prix ne peut être négatif ou absurde
+    # Sécurité : aucun prix déclaré ne peut être inférieur à 5 000 MAD
     declared_prices = np.maximum(declared_prices, 5000)
 
     # ------------------------------------------------------------------
-    # 6. ETAPE 4 DU CHECKLIST — Calculer le "Manque à Gagner Fiscal"
-    #    tax_gap = (fair_value - declared_price) × taux_douanier
-    #    Uniquement si le prix déclaré est inférieur au prix marché
+    # 6. ETAPE 4 — Calculer le "Manque à Gagner Fiscal" (Tax Gap)
+    #
+    #    Formule : tax_gap = (fair_value - declared_price) × taux_douanier
+    #    Uniquement positif — si déclaré > marché, le manque fiscal = 0
     # ------------------------------------------------------------------
     price_gap_mad = fair_values - declared_prices
     price_gap_pct = (price_gap_mad / fair_values) * 100
     tax_gap_mad   = np.maximum(price_gap_mad * TAX_RATE, 0)
 
-    # Score de risque normalisé 0–100 pour Power BI
-    risk_score = np.clip(price_gap_pct * 2, 0, 100).round(1)
+    # Score de risque normalisé 0–100 (utile pour le dashboard Power BI)
+    risk_score  = np.clip(price_gap_pct * 2, 0, 100).round(1)
 
-    # Alerte fraude : écart > 20% (seuil défini dans le CDC)
+    # Alerte fraude : écart supérieur au seuil défini dans le CDC (20%)
     fraud_alert = (price_gap_pct > FRAUD_THRESHOLD * 100).astype(int)
 
     # ------------------------------------------------------------------
-    # 7. Construction du dataset final
+    # 7. Construction du dataset final de simulation
     # ------------------------------------------------------------------
     result = sample.copy()
 
@@ -172,10 +181,10 @@ def run_simulation():
                  if (precision + recall) > 0 else 0)
     accuracy  = (tp + tn) / N_TOTAL
 
-    total_tax_gap  = int(result[result["is_fraud"] == 1]["tax_gap_mad"].sum())
-    detected_tax   = int(result[(result["is_fraud"] == 1) &
-                                (result["fraud_alert"] == 1)]["tax_gap_mad"].sum())
-    recovery_rate  = detected_tax / total_tax_gap * 100 if total_tax_gap > 0 else 0
+    total_tax_gap = int(result[result["is_fraud"] == 1]["tax_gap_mad"].sum())
+    detected_tax  = int(result[(result["is_fraud"] == 1) &
+                               (result["fraud_alert"] == 1)]["tax_gap_mad"].sum())
+    recovery_rate = detected_tax / total_tax_gap * 100 if total_tax_gap > 0 else 0
 
     print("\n" + "=" * 65)
     print("  RAPPORT DE SIMULATION — Audit de Fraude Douanière")
@@ -201,15 +210,14 @@ def run_simulation():
     print("=" * 65)
 
     # ------------------------------------------------------------------
-    # 9. Sauvegarde du CSV (source Power BI)
+    # 9. Sauvegarde du CSV — source principale du dashboard Power BI
     # ------------------------------------------------------------------
     os.makedirs("data", exist_ok=True)
     result.to_csv(OUTPUT_FILE, index=False, encoding="utf-8-sig")
     print(f"\n  Dataset sauvegardé → '{OUTPUT_FILE}'")
-    print(f"  Colonnes : {list(result.columns)}")
 
     # ------------------------------------------------------------------
-    # 10. Génération des graphiques pour le rapport PFE
+    # 10. Graphiques pour le rapport PFE
     # ------------------------------------------------------------------
     _generate_charts(result, price_gap_pct, tp, fp, fn, tn,
                      total_tax_gap, detected_tax, recovery_rate)
@@ -239,13 +247,17 @@ def _generate_charts(result, price_gap_pct, tp, fp, fn, tn,
     honest_gaps = price_gap_pct[result["is_fraud"] == 0]
     fraud_gaps  = price_gap_pct[result["is_fraud"] == 1]
 
-    ax1.hist(honest_gaps, bins=40, alpha=0.7, color="#3498db", label="Conformes")
-    ax1.hist(fraud_gaps,  bins=40, alpha=0.7, color="#e74c3c", label="Frauduleuses")
-    ax1.axvline(x=20, color="black", linestyle="--", linewidth=1.5,
+    ax1.hist(honest_gaps, bins=50, alpha=0.7, color="#3498db", label="Conformes")
+    ax1.hist(fraud_gaps,  bins=50, alpha=0.7, color="#e74c3c", label="Frauduleuses")
+    ax1.axvline(x=20, color="black", linestyle="--", linewidth=1.8,
                 label="Seuil d'alerte (20%)")
     ax1.set_xlabel("Écart Prix Déclaré / Prix Marché (%)", fontsize=10)
     ax1.set_ylabel("Nombre de déclarations", fontsize=10)
     ax1.set_title("Distribution des Écarts de Prix", fontsize=11, fontweight="bold")
+    ax1.legend(fontsize=9)
+
+    # Annotation zone de chevauchement
+    ax1.axvspan(15, 25, alpha=0.08, color="orange", label="Zone ambiguë")
     ax1.legend(fontsize=9)
 
     # --- Graphique 2 : Matrice de confusion ---
@@ -277,7 +289,7 @@ def _generate_charts(result, price_gap_pct, tp, fp, fn, tn,
 
     for bar, val_m in zip(bars, values_m):
         ax3.text(bar.get_x() + bar.get_width() / 2,
-                 bar.get_height() + 0.03,
+                 bar.get_height() + 0.02,
                  f"{val_m:.1f}M MAD",
                  ha="center", va="bottom", fontsize=10, fontweight="bold")
 
