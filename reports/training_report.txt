@@ -1,0 +1,17 @@
+PFE -- Module 3 : Laptops | Training Report (XGBoost)
+=======================================================
+Dataset    : data/laptops_model_ready.csv
+Features   : 57
+Test size  : 20%
+
+R2 (log)   : 0.9049
+RMSE (log) : 0.0905
+MAE (USD)  : $139
+MAE (MAD)  : 1,504 MAD
+RMSE (USD) : $183
+MAPE       : 7.10%
+Within 10% : 74.5%
+Within 20% : 97.5%
+
+CV R2 mean : 0.9012 (+/- 0.0014)
+CV R2 all  : [np.float64(0.903), np.float64(0.9024), np.float64(0.901), np.float64(0.8991), np.float64(0.9003)]
