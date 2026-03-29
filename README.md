@@ -1,6 +1,6 @@
 # 🛃 Diouan-Tech — Système Intelligent de Détection de Fraude Douanière
 
-> **PFE — Projet de Fin d'Études**
+> **PFE — Projet de Fil Rouge**
 > Réalisé par **Mohammed Amine HAMOUTTI** | Encadré par **Yassine AMMAMI**
 
 [![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)](https://python.org)
