@@ -17,8 +17,8 @@ import matplotlib.pyplot as plt
 
 INPUT_FILE  = "data/cars_model_ready.csv"
 MODEL_FILE  = "models/cars/random_forest_cars.pkl"
-OUTPUT_FILE = "reports/simulation_cars.csv"
-CHART_PATH  = "reports/simulation_audit_cars.png"
+OUTPUT_FILE = "simulation/simulation_cars.csv"
+CHART_PATH  = "simulation/simulation_audit_cars.png"
 
 # Paramètres de simulation (définis dans le Cahier des Charges)
 N_TOTAL         = 5000   # Nombre total de déclarations simulées
