@@ -242,10 +242,4 @@ Ouvrir `powerbi/Diouan_Tech.pbix` dans **Microsoft Power BI Desktop**
 
 ---
 
-## 📄 Licence
-
-Ce projet est sous licence MIT — voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
----
-
 *Diouan-Tech — Transformer le contrôle douanier manuel en un audit automatisé, piloté par la donnée.*
